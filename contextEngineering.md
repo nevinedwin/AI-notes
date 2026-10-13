@@ -179,3 +179,124 @@ The first step of training an embedded model is compiling a large collection of 
 
 #### Hybrid Search
 
+![alt text](images/contextEngineering/image-38.png)
+
+##### Reciprocal Rank Fusion
+    The Algorithm which is used to combine the ranking which we get after the metadata filter in both search.
+
+![alt text](images/contextEngineering/image-39.png)
+
+![alt text](images/contextEngineering/image-40.png)
+
+The total score is used for re-rank all the documents.
+
+##### K - Parameter
+K is used to control the impact of the highest ranked document.
+
+![alt text](images/contextEngineering/image-41.png)
+
+
+##### Beta
+
+    Hybrid search has another parameter which is called Beta. K-parameter only cares about the rank of the documents in each list not the scores that lead to ranking, even if the top rank document scores considerably better than the second, that information is not considered.
+
+    so Beta allows you to weight the ranking which is produced by either the semantic or keyword search
+
+![alt text](images/contextEngineering/image-42.png)
+
+![alt text](images/contextEngineering/image-43.png)
+
+
+#### Evaluating Retrieval
+
+![alt text](images/contextEngineering/image-44.png)
+
+Most common two retrieval quality metrics is **Precision** and **Recall**
+
+![alt text](images/contextEngineering/image-45.png)
+
+![alt text](images/contextEngineering/image-46.png)
+
+![alt text](images/contextEngineering/image-47.png)
+
+![alt text](images/contextEngineering/image-48.png)
+
+![alt text](images/contextEngineering/image-49.png)
+
+![alt text](images/contextEngineering/image-50.png)
+
+**MRR reflex how soon on average you can find the relevent item in the retrievers ranking and emphesize the importance of including atleast one relevent document as high in the ranking as possible**
+
+
+![alt text](images/contextEngineering/image-51.png)
+
+![alt text](images/contextEngineering/image-52.png)
+
+### Module - 3: Information Retrieval with Vector Database
+
+**In a production RAG system typically store and retrieve vectors from a specialized database called vector database**
+
+![alt text](images/contextEngineering/image-53.png)
+
+
+![alt text](images/contextEngineering/image-54.png)
+
+**Step 1:**
+![alt text](images/contextEngineering/image-55.png)
+
+**Step 2:**
+![alt text](images/contextEngineering/image-56.png)
+
+**Step 3:**
+![alt text](images/contextEngineering/image-57.png)
+
+![alt text](images/contextEngineering/image-58.png)
+
+![alt text](images/contextEngineering/image-59.png)
+
+
+![alt text](images/contextEngineering/image-60.png)
+
+![alt text](images/contextEngineering/image-61.png)
+
+#### Chunking
+
+![alt text](images/contextEngineering/image-62.png)
+
+![alt text](images/contextEngineering/image-63.png)
+
+![alt text](images/contextEngineering/image-64.png)
+
+![alt text](images/contextEngineering/image-65.png)
+
+![alt text](images/contextEngineering/image-66.png)
+
+![alt text](images/contextEngineering/image-67.png)
+
+![alt text](images/contextEngineering/image-68.png)
+
+![alt text](images/contextEngineering/image-69.png)
+
+![alt text](images/contextEngineering/image-70.png)
+
+![alt text](images/contextEngineering/image-71.png)
+
+#### Advance Chunking Techniques
+
+![alt text](images/contextEngineering/image-72.png)
+
+![alt text](images/contextEngineering/image-73.png)
+
+![alt text](images/contextEngineering/image-74.png)
+
+![alt text](images/contextEngineering/image-75.png)
+
+![alt text](images/contextEngineering/image-76.png)
+
+![alt text](images/contextEngineering/image-77.png)
+
+![alt text](images/contextEngineering/image-78.png)
+
+![alt text](images/contextEngineering/image-79.png)
+
+![alt text](images/contextEngineering/image-80.png)
