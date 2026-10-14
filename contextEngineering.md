@@ -327,3 +327,34 @@ A powerful way to improve the RAG performance is to start introducing Agentic Wo
 ![alt text](images/contextEngineering/image-89.png)
 
 ![alt text](images/contextEngineering/image-90.png)
+
+![alt text](images/contextEngineering/image-91.png)
+
+![alt text](images/contextEngineering/image-92.png)
+
+![alt text](images/contextEngineering/image-93.png)
+
+![alt text](images/contextEngineering/image-94.png)
+
+![alt text](images/contextEngineering/image-95.png)
+
+
+#### RAG v/s Fine Tuning
+
+RAG is a popular and powerful approach for improving the performance of LLM. Another technique called fine tuning is also frequently used. Ratherthan just Augmenting the prompt fine tuning retrains the LLM to improve its performance in a specific context
+
+![alt text](images/contextEngineering/image-96.png)
+
+![alt text](images/contextEngineering/image-97.png)
+
+![alt text](images/contextEngineering/image-98.png)
+
+![alt text](images/contextEngineering/image-99.png)
+
+### Multimodal RAG
+
+![alt text](images/contextEngineering/image-100.png)
+
+![alt text](images/contextEngineering/image-101.png)
+
+![alt text](images/contextEngineering/image-102.png)
