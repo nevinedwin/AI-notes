@@ -300,3 +300,30 @@ Most common two retrieval quality metrics is **Precision** and **Recall**
 ![alt text](images/contextEngineering/image-79.png)
 
 ![alt text](images/contextEngineering/image-80.png)
+
+#### Query Parsing
+
+![alt text](images/contextEngineering/image-81.png)
+
+![alt text](images/contextEngineering/image-82.png)
+
+![alt text](images/contextEngineering/image-83.png)
+
+![alt text](images/contextEngineering/image-84.png)
+
+![alt text](images/contextEngineering/image-85.png)
+
+![alt text](images/contextEngineering/image-86.png)
+
+![alt text](images/contextEngineering/image-87.png)
+
+#### Agentic RAG
+
+A powerful way to improve the RAG performance is to start introducing Agentic Workflows.
+**Agentic workflows** means using several LLMs throughout the RAG system and each one is responsible for the single step in the overall process.
+
+![alt text](images/contextEngineering/image-88.png)
+
+![alt text](images/contextEngineering/image-89.png)
+
+![alt text](images/contextEngineering/image-90.png)
